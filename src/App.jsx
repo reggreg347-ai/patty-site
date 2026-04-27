@@ -8,9 +8,4 @@ export default function App() {
     </div>
   );
 }
-<p>
-Throughout her career, she has been recognized for her academic excellence, professional contributions, and long-standing involvement in community and legal initiatives in Philadelphia, Pennsylvania.
-</p>
-<p style={{ marginTop: "20px", fontSize: "14px", color: "#666" }}>
-This page is an informational biography intended for public reference.
-</p>
+

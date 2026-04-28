@@ -1,3 +1,7 @@
 export default function App() {
-  return <h1>Website is working</h1>;
+  return (
+    <div style={{ padding: 20 }}>
+      <h1>It is working</h1>
+    </div>
+  );
 }

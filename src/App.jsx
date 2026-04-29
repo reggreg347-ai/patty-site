@@ -1,10 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+function Home() {
+  return <h1>Home Page Works ✅</h1>;
+}
+
 export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<h1>Home Page</h1>} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </Router>
   );

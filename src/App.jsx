@@ -1,7 +1,22 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Biography from "./pages/Biography";
+
+function Home() {
+  return (
+    <div style={{ padding: "20px" }}>
+      <h1>Home Page</h1>
+      <p>Site is working</p>
+    </div>
+  );
+}
+
 export default function App() {
   return (
-    <div>
-      <h1>Site Working Again ✅</h1>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/bio" element={<Biography />} />
+      </Routes>
+    </Router>
   );
 }

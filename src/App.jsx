@@ -1,8 +1,11 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 export default function App() {
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>Site is running ✅</h1>
-      <p>Base structure is working</p>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<h1>Home Page</h1>} />
+      </Routes>
+    </Router>
   );
 }
